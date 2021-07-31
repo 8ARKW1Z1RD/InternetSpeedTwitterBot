@@ -1,1 +1,1 @@
-# InternetSpoeedTwitterBot
+# This code will call the Speedtest.net url using selenium web driver for chrome and check the current internet speed. Once the speed result is shown, it will compare that against the agreed upon speed by the ISP and if the test result is less, the program will automatically send a tweet to the ISP's twitter handle from our twitter login using the Twitter API. 
