@@ -1,15 +1,15 @@
 from selenium import webdriver
 import tweepy
 
-consumer_api_key = "ex7BY58VASQXRVeiLFeSNKqOB"
-consumer_api_secret = "7JgEs9p18zH73SMnp55ONvTqluW8jUrD6mCipdFsnjEb8QP980"
-bearer_token = "AAAAAAAAAAAAAAAAAAAAAMl6RwEAAAAA4lPWrn77X2CYGiqx2AGg%2BSqyd9I%3DViUwNjyzaOIpbDNRRAbokXqsQEeFNwbDQ3ys7h82kLvSb8E9rC"
-access_token = "182242770-URjGZtmtAnSDr7y7g68HZ2NVorFUna4UGGwQcMBE"
-access_token_secret = "cDPoC5bXkl5WJSqf12CvEzsN8YZhYEN4RDcwC6O0uwIeb"
+consumer_api_key = ""
+consumer_api_secret = ""
+bearer_token = ""
+access_token = ""
+access_token_secret = ""
 
 class InternetSpeedTwitterBot:
     def __init__(self):
-        chrome_driver_path = "C:/Users/rajesh_kumar_v1/chromedriver_win32/chromedriver.exe"
+        chrome_driver_path = "C:/Users/{user_name}/chromedriver_win32/chromedriver.exe"
         self.driver = webdriver.Chrome(executable_path= chrome_driver_path)
 
     def get_internet_speed(self):
